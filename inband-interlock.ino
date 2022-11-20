@@ -56,7 +56,7 @@ void ledBlink(int the_delay){
     for (int i=0; i < (the_delay/10); i++){
       digitalWrite(txled1,HIGH);
       digitalWrite(txled2, HIGH);
-      delay(delay);
+      delay(the_delay);
       digitalWrite(txled1,LOW);
       digitalWrite(txled2,LOW);
     }
