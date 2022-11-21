@@ -90,7 +90,7 @@ voltage2 = float(ptt_in_1) / 1023 * 5.0;
     the_delay = initial_delay;
     ledBlink(the_delay);
   }
-  if(voltage1 > 3.4 && voltage2 == 0){
+  if(voltage1 > 3.4 && voltage2 < 0.5){
     the_delay = initial_delay + 10;
     ledBlink(the_delay);
   }
