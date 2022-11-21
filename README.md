@@ -23,7 +23,7 @@ Notes about Schematic:
 
 Notes about firmware:
 - please read part about delays
-- default delay without any action from switching relays and turning amplifier ptt is 30 msec (then from amplifier to radio 10msec)
+- default delay without any action from switching relays and turning amplifier ptt is 30 msec (then from amplifier to radio 15msec)
 - that delay can be adjusted during boot-up time with two footswitches connected to PTT input 1 and 2 to values of 40, 50 and 60ms.
 - For CW setup an delay in N1MM, DX Log, QARtest or Win-Test to 47-50ms delay of CW after the PTT. Increment in steps of 10 if you increment sequencer delay to 40,50 or 60ms. 
 
